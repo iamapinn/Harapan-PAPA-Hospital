@@ -1,0 +1,157 @@
+body {
+    background-image: url(gambar/latar.jpg);
+}
+
+
+/* #box_judul{
+	position: absolute;
+	height: 50px;
+	width: 2000px;
+	background-color: white;
+	padding-top: 0.04px;
+	padding-right: 0.02px;
+	padding-bottom: 0.02px;
+	padding-left: 0.04px;
+	line-height: 0.5px;
+	left: 0px;
+} */
+
+.box {
+    width: 950px;
+    margin: 80px auto;
+    background: rgb(182, 230, 203);
+    position: relative;
+}
+
+/* header */
+
+.header {
+    width: 950px;
+    height: 110px;
+    padding-top: 4px;
+    margin: 40px auto;
+    background: black;
+    position: relative;
+}
+
+.header h1 {
+    color: white;
+    text-shadow: -1px 1px 0 rgb(65, 146, 102), -2px 2px 0 rgb(45, 121, 77), -3px 3px 0 rgb(22, 83, 48);
+    letter-spacing: 10px;
+    padding-left: 45px;
+    /* text-align: center; */
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(181, 239, 207);
+    padding: 3px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+
+.header a:hover {
+    background-color: rgb(128, 226, 172);
+    color: black;
+}
+
+
+/* content */
+
+.content {
+    padding-top: 15px;
+    padding-right: 60px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.content img {
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+}
+
+#box_content{
+    width: 400px;
+    margin: 10px auto;
+    background:  rgb(99, 181, 136);
+    position: relative;
+    padding: 20px;
+    left: -90px;
+    border-left-width: 8px;
+    border-left-style: dashed;
+    border-left-color: black;
+    border-right-width: 4px;
+    border-right-style: groove;
+    border-right-color: black;
+    border-top-style: groove;
+    border-top-color: black;
+    border-top-width: 5px;
+    
+}
+
+#box_nav_right{
+    position: absolute;
+    background-color: rgb(128, 226, 172);
+    height: 1000px;
+    width: 2000px;
+    line-height: 0.1px;
+    left: 800px;
+    top: 150px;
+    padding: 20px;
+    border-bottom-width: 1px;
+    border-bottom-color:black;
+    border-right-width: ipx; 
+}
+
+#teks1{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+/* #box_content{
+    background-color: rgb(128, 226, 172);
+    position: absolute;
+    height: 970px;
+    width: 740px;
+    left:49px;
+    top:209px;
+    padding: 10 px;
+    border-left-width: 8px;
+    border-left-style: dashed;
+    border-left-color: black;
+    border-right-width: 4px;
+    border-right-style: groove;
+    border-right-color: black;
+    border-top-style: groove;
+    border-top-color: black;
+    border-top-width: 5px;
+} */
+
+/* footer */
+
+.footer {
+    padding: 0px 60px 60px 60px;
+    text-align: center;
+}
+
+.footer h4 {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.footer img {
+    width: 35px;
+}

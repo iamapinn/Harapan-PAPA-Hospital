@@ -1,0 +1,90 @@
+body {
+    background-image: url(gambar/pola.png);
+}
+
+
+/* box */
+
+.box {
+    width: 950px;
+    margin: 80px auto;
+    background: rgb(245, 220, 244);
+    position: relative;
+}
+
+
+/* header */
+
+.header {
+    width: 950px;
+    height: 100px;
+    padding-top: 4px;
+    margin: 40px auto;
+    background: black;
+    position: relative;
+}
+
+.header h1 {
+    color: white;
+    text-shadow: -1px 1px 0 #ff99ff, -2px 2px 0 #ff66ff, -3px 3px 0 #ff00ff;
+    letter-spacing: 10px;
+    padding-left: 45px;
+    margin-bottom: -4px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #eed1ee;
+    padding: 3px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+
+.header a:hover {
+    background-color: rgb(245, 220, 244);
+    color: black;
+}
+
+
+/* content */
+
+.content {
+    padding-top: 130px;
+    padding-right: 60px;
+    padding-bottom: 150px;
+    padding-left: 60px;
+}
+
+.content h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: -1px 1px 0 #ffffff, -2px 2px 0 #000000;
+}
+
+
+/* footer */
+
+.footer {
+    padding: 0px 60px 60px 60px;
+    text-align: center;
+}
+
+.footer h5 {
+    background-color: black;
+    color: rgb(245, 220, 244);
+    padding: 3px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.footer img {
+    width: 35px;
+}
+
+.footer a {
+    padding: 5px;
+}

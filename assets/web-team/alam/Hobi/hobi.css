@@ -1,0 +1,22 @@
+body, h1, h2, p, td, a, span {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/* Warna font */
+span {
+    color: rgb(151, 111, 0);
+}
+/* background tengah */
+.cover {
+    background-color: rgb(216, 216, 216); border-style: outset; border-radius: 1.5%;
+    width: 600px;
+    color: black;
+    margin: 30px auto;
+    padding: 20px auto;
+}
+/* link */
+.link {
+    text-align: center;
+    padding: 6px;
+}

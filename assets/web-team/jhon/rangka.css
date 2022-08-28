@@ -1,0 +1,126 @@
+body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    margin: auto;
+    /* Pengaturan tebal tepi */
+    padding: 20px;
+    /* Memberi jarak antara tepi terhadap isi */
+}
+
+#box_judul {
+    position: absolute;
+    height: 90px;
+    width: 895px;
+	color : white;
+    background-color: yellow;
+    line-height: 0.5px;
+    padding-top: 37px;
+    padding-left: 45px;
+    left: 50px;
+}
+
+.teks_judul {
+    font-family: verdana, helvetica, sans-serif;
+    font-size: 25px;
+    color: red;
+}
+
+.teks1 {
+    font-family: verdana, helvetica, sans-serif;
+    font-size: 20px;
+    color: pink;
+}
+
+#box_nav_top {
+    position: absolute;
+    background-color: blue;
+    height: 60px;
+    width: 900px;
+    line-height: 0.1px;
+    left: 50px;
+    top: 97px;
+    padding: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: pink;
+}
+
+#box_nav_right {
+    position: absolute;
+    background-color: red;
+	color:black;
+    height: 438px;
+    width: 450px;
+    line-height: 0.1px;
+    left: 500px;
+    top: 160px;
+    padding: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: pink;
+}
+
+#stylelink_top {
+    font-size: 20px;
+    padding-top: 10px;
+	
+}
+
+#stylelink_right {
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.navkanan {
+    padding-left: 20px;
+}
+
+#stylelink_top a:visited {
+    border-bottom: 1px;
+    background-color: orange;
+    font-size: 15pt;
+    color: red;
+    height: 40px;
+    width: 100px;
+    padding-top: 6px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+
+#stylelink_right a:visited {
+    display: block;
+    background-color: orange;
+    font-size: 15px;
+    color: #ffff00;
+    height: 40px;
+    width: 200px;
+    padding-top: 6px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+}
+
+#box_content {
+    background-color: white;
+	color: red;
+    position: absolute;
+    height: 438px;
+    width: 450px;
+    left: 50px;
+    top: 160px;
+    padding: 10px;
+    border-left-width: 1px;
+    border-left-style: dotted;
+    border-left-color: red;
+    border-right-width: 1px;
+    border-right-style: dotted;
+    border-right-color: red;
+    border-right-color: red;
+    border-top-width: 1px;
+    border-top-style: dotted;
+    border-top-color: red;
+}

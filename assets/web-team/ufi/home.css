@@ -1,0 +1,83 @@
+body {
+    background-image: url(gambar/latar.jpg);
+}
+
+
+/* box */
+
+.box {
+    width: 950px;
+    margin: 80px auto;
+    background: rgb(182, 230, 203);
+    position: relative;
+}
+
+
+/* header */
+
+.header {
+    width: 950px;
+    height: 110px;
+    padding-top: 4px;
+    margin: 40px auto;
+    background: black;
+    position: relative;
+}
+
+.header h1 {
+    color: white;
+    text-shadow: -1px 1px 0 rgb(65, 146, 102), -2px 2px 0 rgb(45, 121, 77), -3px 3px 0 rgb(22, 83, 48);
+    letter-spacing: 10px;
+    padding-left: 45px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(181, 239, 207);
+    padding: 3px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+
+.header a:hover {
+    background-color: rgb(128, 226, 172);
+    color: black;
+}
+
+
+/* content */
+
+.content {
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+
+/* footer */
+
+.footer {
+    padding: 60px 60px 60px 60px;
+    text-align: center;
+}
+
+.footer h4 {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.footer img {
+    width: 35px;
+}
